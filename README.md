@@ -15,3 +15,20 @@ Guided project for **Node DB 4** Module.
 - [ ] type `npm run server` to start the API.
 
 Please follow along as the instructor uses Knex migrations and seeding to create a multi-table database schema.
+
+## Project Reuirements
+
+A client has hired you to build an API for managing zoos and the animals kept at each zoo. The API will be used for zoos in the United States of America, no need to worry about addresses in other countries
+
+For the zoos, the client wants to keep track of:
+
+- [ ] Name
+- [ ] Address
+
+For the animals, the client wants to keep track of:
+
+- [ ] Name
+- [ ] Species
+- [ ] List of all the zoos where they have resided
+
+Determine the database necessary to track this information. Label any relationships between tables.

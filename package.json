@@ -4,11 +4,13 @@
     "description": "Guided Project for Node DB 4 Module",
     "main": "index.js",
     "scripts": {
-        "server": "nodemon index.js"
+        "server": "nodemon index.js",
+        "start": "node index.js"
     },
     "keywords": [],
     "author": "Lambda School",
     "dependencies": {
+        "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "helmet": "^3.21.2",
         "knex": "^0.20.8",
